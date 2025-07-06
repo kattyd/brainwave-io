@@ -1,12 +1,12 @@
 import React from "react";
 import "../styles/CategoryCards.css";
 import CategoryCard from "../components/CategoryCard";
-import sofa from "/public/assets/sofa.png";
-import table from "/public/assets/table.png";
-import lamp from "/public/assets/lamp.png";
-import stool from "/public/assets/stool.png";
-import chair from "/public/assets/chair.png";
-import plant from "/public/assets/plant.png";
+import sofa from "../assets/sofa.png";
+import table from "../assets/table.png";
+import lamp from "../assets/lamp.png";
+import stool from "../assets/stool.png";
+import chair from "../assets/chair.png";
+import plant from "../assets/plant.png";
 
 const categories = [
     { title: "Living Room", count: 23, image: sofa },

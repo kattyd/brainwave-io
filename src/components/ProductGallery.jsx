@@ -1,13 +1,13 @@
 import React from "react";
 import "../styles/ProductGallery.css"
-import sofas from "/public/assets/sofas.png";
-import basket from "/public/assets/basket.png";
-import sidetable from "/public/assets/sidetable.png";
-import greychair from "/public/assets/greychair.png";
-import stools from "/public/assets/stools.png";
-import orangechair from "/public/assets/orangechair.png";
-import blackchair from "/public/assets/blackchair.png";
-import bluechair from "/public/assets/bluechair.png";
+import sofas from "../assets/sofas.png";
+import basket from "../assets/basket.png";
+import sidetable from "../assets/sidetable.png";
+import greychair from "../assets/greychair.png";
+import stools from "../assets/stools.png";
+import orangechair from "../assets/orangechair.png";
+import blackchair from "../assets/blackchair.png";
+import bluechair from "../assets/bluechair.png";
 
 const products = [
     { title: "Minimal Chair", price: "$120", image: sofas },
