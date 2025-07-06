@@ -1,0 +1,25 @@
+.cta-container {
+    background: var(--primary-color);
+    display: flex;
+    justify-content: space-evenly;
+    height: 500px;
+    border-radius: 12px;
+    gap: 6rem;
+}
+.cta-image {
+    margin-top: 12rem;
+} 
+.cta-text {
+    color: var(--background);
+    font-family: var(--main-font);
+    width: 27%;
+    margin: 10rem;
+}
+.cta-text h2 {
+    font-size: 28px;
+}
+.shop-btn button{
+    background-color: transparent;
+    border: none;
+    color: var(--background);
+}
