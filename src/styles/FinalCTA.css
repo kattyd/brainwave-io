@@ -1,0 +1,29 @@
+.ctacontainer {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height:  500px; 
+    position: relative;
+    display: flex;
+    align-items: center;
+    color: #fff; /* optional: adjust based on your text and image contrast */
+    text-align: left;
+    padding: 0 auto;
+    margin-top: 0.8rem;
+}
+.ctatext {
+    width: 450px;
+    text-align: center;
+}
+.ctatext h1 {
+    font-size: 40px;
+}
+.ctatext button {
+    background: var(--accent);
+    border: none;
+    color: var(--secondary-color);
+    height: 45px;
+    padding: 1rem;
+    border-radius: 6px;
+    font-weight: bold;
+}

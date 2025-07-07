@@ -5,7 +5,7 @@ import CategoryCards from "../components/CategoryCards";
 import ProductGallery from "../components/ProductGallery";
 import CallToAction from "../components/CallToAction";
 import Testimonials from "../components/Testimonials";
-// import FinalCTA from "../components/FinalCTA";
+import FinalCTA from "../components/FinalCTA";
 // import Footer from "../components/Footer";
 
 
@@ -18,8 +18,8 @@ const Home = () => {
             <ProductGallery />
             <CallToAction />
             <Testimonials />
-            {/* <FinalCTA />
-            <Footer /> */}
+            <FinalCTA />
+            {/* <Footer /> */}
         </>
     );
 };

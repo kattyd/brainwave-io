@@ -1,20 +1,29 @@
 .hero {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height:  800px; 
     position: relative;
-    width: 1200px;
-    margin: 0 auto;
-    overflow: hidden;
+    display: flex;
+    align-items: center;
+    color: #fff; /* optional: adjust based on your text and image contrast */
+    text-align: left;
+    padding: 0 2rem;
+    margin: 0 0.3rem;
+    border-radius: 8px;
 }
+
 .hero .container {
     position: relative;
 }
-.hero-image {
+/* .hero-image {
     width: 100%;
     height: auto;
     display: block;
     object-fit: cover;
     max-width: 1200px;
     border-radius: 12px;
-}
+} */
 .hero-text {
     position: absolute;
     top: 39%;
