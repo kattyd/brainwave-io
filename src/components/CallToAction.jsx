@@ -1,14 +1,16 @@
 import React from "react";
 import "../styles/CallToAction.css";
+import cta from "../assets/cta.png";
+import bitmapss from "../assets/bitmapss.png";
 
  function CallToAction() {
     return (
         <div className="cta-container">
             <div className="cta-image">
-                <img src="src/assets/cta.png" className="base-image" />
+                <img src={cta} className="base-image" />
             <div className="bitmap-card">
-                <img src="src/assets/bitmapss.png" className="bitmap-image" />
-             </div>
+                <img src={bitmapss} className="bitmap-image" />
+                     </div>
             </div>
             <div className="cta-text">
                 <h2>Track your progress with <br />our advanced site.</h2>

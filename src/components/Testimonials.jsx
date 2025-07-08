@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/Testimonials.css";
-
+import test from "../assets/test.png";
 const Testimonials = () => {
     return (
          <div className="t-container">
@@ -12,7 +12,7 @@ const Testimonials = () => {
                 </div>
             </div>
             <div className="t-image">
-                <img src="src/assets/test.png"/>
+                <img src={test} />
             </div>
          </div>
     );
