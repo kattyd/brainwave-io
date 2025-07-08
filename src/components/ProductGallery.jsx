@@ -30,13 +30,14 @@ const ProductGallery = () => {
             <div className="product-grid">
                 {products.map((product, index) => (
                     <div className="product-card" key={index}>
-                        <div className="product-img">
-                            <img src={product.image} alt={product.title} />
-                        </div>
-                        <p>{product.price}</p>
-                        <h4>{product.title}</h4>
-                        <p className="rate">@@@@@</p>
-                    </div>
+  <div className="product-img">
+    <img src={product.image} alt={product.title} />
+  </div>
+  <p className="product-price">{product.price}</p>
+  <h4>{product.title}</h4>
+  <p className="rate">★★★★★</p>
+</div>
+
                 ))}
             </div>
             <a href="#" className="check-all">Check all products</a>

@@ -5,7 +5,10 @@ import "../styles/CallToAction.css";
     return (
         <div className="cta-container">
             <div className="cta-image">
-                <img src="/public/assets/stools.png"/>
+                <img src="src/assets/cta.png"/>
+                <div className="bitmap">
+                    <img src="src/assets/bitmapss.png" />
+                </div>
             </div>
             <div className="cta-text">
                 <h2>Track your progress with <br />our advanced site.</h2>

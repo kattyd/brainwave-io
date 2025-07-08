@@ -2,18 +2,39 @@
     background: var(--primary-color);
     display: flex;
     justify-content: space-evenly;
-    height: 500px;
+    height: 600px;
     border-radius: 12px;
-    gap: 6rem;
+    gap: 1rem;
     width: 100%;
 }
 .cta-image {
-    margin-top: 12rem;
+    margin-top: 6rem;
+    margin-left: 8rem;
+}
+.cta-image img {
+    height: 450px;
+    width: 400px;
 } 
+.bitmap {
+    background-color: var(--background);
+
+    position: absolute;
+    border-radius: 12px;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bitmap img {
+    max-width: 80%;
+    max-height: 80%;
+    object-fit: contain;
+}
 .cta-text {
     color: var(--background);
     font-family: var(--main-font);
-    width: 27%;
+    width: 50%;
     margin: 10rem;
 }
 .cta-text h2 {

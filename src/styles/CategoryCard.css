@@ -1,7 +1,7 @@
 .category-card {
     background: #f4f7fa;
     border-radius: 8px;
-    padding: 16px;
+    padding: 20px;
     text-align: left;
     color: var(--secondary-color);
 }
@@ -31,29 +31,29 @@
 }
 
 .category-card:nth-child(1) {
-    width: 250px;
+    width: 280px;
     height: 290px;
 }
 .category-card:nth-child(2) {
-    width: 250px;
+    width: 280px;
     height: 222px;
     background: #fff;
 }
 .category-card:nth-child(3) {
-    width: 250px;
+    width: 280px;
     height: 290px;
 }
 .category-card:nth-child(4) {
-    width: 250px;
+    width: 280px;
     height: 253px;
 }
 .category-card:nth-child(5) {
-    width: 250px;
+    width: 280px;
     height: 340px;
     transform: translateY(-90px);
     z-index: 2;
 }
 .category-card:nth-child(6) {
-    width: 250px;
+    width: 280px;
     height: 251px;
 }

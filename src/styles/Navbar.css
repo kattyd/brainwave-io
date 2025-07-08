@@ -9,14 +9,17 @@
     color: var(--secondary-color);
     font-weight: bold;
     letter-spacing: -0.13px;
-    margin: 0.3rem;
+    margin-left: 0.5rem;
+    font-size: 20px;
+    margin-top: 1rem;
 }
 .nav-links {
     display: flex;
-    gap: 20px;
+    gap: 30px;
     font-family: var(--main-font);
     font-weight: 800;
     margin-left: -5rem;
+    margin-right: 3rem;
 }
 .nav-links li {
     list-style: none;
@@ -25,4 +28,9 @@
     cursor: pointer;
     transition: color 0.3s ease;
     letter-spacing: -0.1px;
+    font-size: 12px;
+}
+.cart-icon img {
+    margin-right: 1rem;
+    height: 18px;
 }

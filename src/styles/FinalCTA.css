@@ -1,8 +1,8 @@
-.ctacontainer {
+.cta-contain {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height:  500px; 
+    height:  700px; 
     position: relative;
     display: flex;
     align-items: center;
@@ -10,20 +10,23 @@
     text-align: left;
     padding: 0 auto;
     margin-top: 0.8rem;
+    font-family: var(--main-font);
 }
-.ctatext {
+.cta-txt {
     width: 450px;
     text-align: center;
+    margin-left: 25rem;
 }
-.ctatext h1 {
+.cta-txt h1 {
     font-size: 40px;
+    text-align: center;
 }
-.ctatext button {
+.cta-txt button {
     background: var(--accent);
     border: none;
     color: var(--secondary-color);
     height: 45px;
-    padding: 1rem;
     border-radius: 6px;
     font-weight: bold;
+    width: 160px;
 }
