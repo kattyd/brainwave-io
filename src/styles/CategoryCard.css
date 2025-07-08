@@ -1,33 +1,36 @@
 .category-card {
     background: #f4f7fa;
     border-radius: 8px;
-    padding: 20px;
+    padding: 12px;
     text-align: left;
     color: var(--secondary-color);
 }
 .category-card h4 {
     color: var(--secondary-color);
     margin-left: 1rem;
+    font-size: 20px;
+    margin-bottom: 0.5rem;
 
 }
 .category-card p {
     color: #797979;
     margin-left: 1rem;
+    margin-top: 0;
 
 }
 .category-card img {
-    width: 40%;
+    width: 35%;
     display: block;
     margin: 1rem auto;
     height: auto;
 }
 .category-card:nth-child(1) img {
     height: auto;
-    width: 50%;
+    width: 45%;
 }
 .category-card:nth-child(5) img {
     height: auto;
-    width: 50%;
+    width: 54%;
 }
 
 .category-card:nth-child(1) {

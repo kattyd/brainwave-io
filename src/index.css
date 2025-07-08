@@ -1,5 +1,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('/src/assets/fonts/Gilroy-Light.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('/src/assets/fonts/Gilroy-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('/src/assets/fonts/Gilroy-Medium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('/src/assets/fonts/Gilroy-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+
 * {
   box-sizing: border-box;
 }
@@ -11,7 +42,4 @@
   --card-color: #f4f7fa;
   --logo-font: 'Rubik', sans-serif;
   --main-font: 'Gilroy', sans-serif;
-}
-body {
-  padding-top: 20px;
 }

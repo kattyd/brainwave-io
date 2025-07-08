@@ -67,7 +67,7 @@
 }
 
 .product-card .rate {
-    color: #dcba22;
+    color: #fcad38;
     margin-top: 0.3rem;
 }
 
@@ -78,4 +78,5 @@
     text-decoration: none;
     font-family: var(--main-font);
     margin-bottom: 7rem;
+    font-weight: bold;
 }

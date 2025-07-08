@@ -1,12 +1,13 @@
 .navbar {
     width: 100%;
-    height: 30px;
-    z-index: 100;
+    height: 49px;
+    z-index: 10;
     overflow: hidden;
     display: flex;
     align-items: center;
-    padding: 0 1rem;
+    padding: 0 0.5rem;
     justify-content: space-between;
+    position: relative;
 }
 .logo {
     font-family: var(--logo-font);
@@ -20,7 +21,6 @@
     display: flex;
     gap: 30px;
     font-family: var(--main-font);
-    font-weight: 800;
     margin-left: -5rem;
     margin-right: 3rem;
 }
@@ -32,6 +32,8 @@
     transition: color 0.3s ease;
     letter-spacing: -0.1px;
     font-size: 12px;
+    font-weight: 700;
+
 }
 .cart-icon img {
     margin-right: 1rem;
