@@ -12,6 +12,6 @@
   --logo-font: 'Rubik', sans-serif;
   --main-font: 'Gilroy', sans-serif;
 }
-.container {
-  max-width: 1200px;
+body {
+  padding-top: 20px;
 }
